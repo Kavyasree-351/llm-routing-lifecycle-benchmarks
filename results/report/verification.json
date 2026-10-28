@@ -1,0 +1,14 @@
+{
+  "runs": 18,
+  "candidate_policies_per_run": [
+    103
+  ],
+  "decision_scenarios_including_rules": 2592,
+  "original_primary_reproduced": true,
+  "reproduction_scope": "43-policy dense results reproduced after economical-validation sensitivity; 103-policy baseline extension is a separate documented attempt",
+  "split_isolation": "Passed within every run and against reserved fresh/final pools",
+  "seconds_excluding_imports": 33.548330200021155,
+  "opportunity_gate": false,
+  "novelty_established": false,
+  "note": "Pilot evaluation estimates are noisy; seeds share calibration/evaluation pools. No population false-deployment probabilities are inferred."
+}

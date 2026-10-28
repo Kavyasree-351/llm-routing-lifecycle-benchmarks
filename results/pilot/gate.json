@@ -1,0 +1,98 @@
+{
+  "performance_gate_passed": false,
+  "qualifying_workloads": [],
+  "novelty_established": false,
+  "reason": "Lifecycle payback already studied; current tools are established inference. Novel empirical claim requires independent benchmark confirmation and stronger comparisons.",
+  "primary_summary": [
+    {
+      "workload": "math",
+      "rule": "point",
+      "decisions": 6,
+      "approvals": 0,
+      "observed_bad_approvals": 0,
+      "clearly_bad_approvals": 0,
+      "clearly_good_approvals": 0,
+      "bad_fraction": null
+    },
+    {
+      "workload": "math",
+      "rule": "paired_bootstrap",
+      "decisions": 6,
+      "approvals": 0,
+      "observed_bad_approvals": 0,
+      "clearly_bad_approvals": 0,
+      "clearly_good_approvals": 0,
+      "bad_fraction": null
+    },
+    {
+      "workload": "math",
+      "rule": "finite_bound",
+      "decisions": 6,
+      "approvals": 0,
+      "observed_bad_approvals": 0,
+      "clearly_bad_approvals": 0,
+      "clearly_good_approvals": 0,
+      "bad_fraction": null
+    },
+    {
+      "workload": "reasoning",
+      "rule": "point",
+      "decisions": 6,
+      "approvals": 0,
+      "observed_bad_approvals": 0,
+      "clearly_bad_approvals": 0,
+      "clearly_good_approvals": 0,
+      "bad_fraction": null
+    },
+    {
+      "workload": "reasoning",
+      "rule": "paired_bootstrap",
+      "decisions": 6,
+      "approvals": 0,
+      "observed_bad_approvals": 0,
+      "clearly_bad_approvals": 0,
+      "clearly_good_approvals": 0,
+      "bad_fraction": null
+    },
+    {
+      "workload": "reasoning",
+      "rule": "finite_bound",
+      "decisions": 6,
+      "approvals": 0,
+      "observed_bad_approvals": 0,
+      "clearly_bad_approvals": 0,
+      "clearly_good_approvals": 0,
+      "bad_fraction": null
+    },
+    {
+      "workload": "law",
+      "rule": "point",
+      "decisions": 6,
+      "approvals": 0,
+      "observed_bad_approvals": 0,
+      "clearly_bad_approvals": 0,
+      "clearly_good_approvals": 0,
+      "bad_fraction": null
+    },
+    {
+      "workload": "law",
+      "rule": "paired_bootstrap",
+      "decisions": 6,
+      "approvals": 0,
+      "observed_bad_approvals": 0,
+      "clearly_bad_approvals": 0,
+      "clearly_good_approvals": 0,
+      "bad_fraction": null
+    },
+    {
+      "workload": "law",
+      "rule": "finite_bound",
+      "decisions": 6,
+      "approvals": 0,
+      "observed_bad_approvals": 0,
+      "clearly_bad_approvals": 0,
+      "clearly_good_approvals": 0,
+      "bad_fraction": null
+    }
+  ]
+}

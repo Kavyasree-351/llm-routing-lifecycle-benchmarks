@@ -1,0 +1,668 @@
+[
+  {
+    "id": "math_3101_256",
+    "workload": "math",
+    "seed": 3101,
+    "requested_train": 256,
+    "actual_train": 256,
+    "family": "knn",
+    "lambda": 0.05,
+    "fixed_model": null,
+    "tune_excess": 0.012610340479192938,
+    "cal_excess": 0.02448021462105969,
+    "pilot_excess": 0.01619217081850534,
+    "historical_upfront_api_cost": 56.60120448800001,
+    "feedback_count": 27940,
+    "reference_mean_cost": 0.0087320703125,
+    "pilot_cost_difference": -0.005533919288256228,
+    "bounds": {
+      "cal_quality_boot": [
+        0.014247987927565393,
+        0.03437290409121395
+      ],
+      "cal_cost_boot": [
+        -0.005539804899396378,
+        -0.005216008547954393
+      ],
+      "pilot_quality_boot": [
+        0.0056939501779359435,
+        0.02705071174377224
+      ],
+      "pilot_cost_boot": [
+        -0.005718611451957295,
+        -0.005362100903914591
+      ],
+      "cal_quality_finite": 0.054475252260180476,
+      "cal_cost_bernstein": 0.008596629932679456
+    }
+  },
+  {
+    "id": "math_3101_1024",
+    "workload": "math",
+    "seed": 3101,
+    "requested_train": 1024,
+    "actual_train": 1024,
+    "family": "length_bins",
+    "lambda": 0.1,
+    "fixed_model": null,
+    "tune_excess": 0.006305170239596469,
+    "cal_excess": 0.0335345405767941,
+    "pilot_excess": 0.019572953736654804,
+    "historical_upfront_api_cost": 73.74504380000002,
+    "feedback_count": 36388,
+    "reference_mean_cost": 0.00860185546875,
+    "pilot_cost_difference": -0.006178351601423487,
+    "bounds": {
+      "cal_quality_boot": [
+        0.022300469483568074,
+        0.04578303152246813
+      ],
+      "cal_cost_boot": [
+        -0.00630472018108652,
+        -0.006012376324614353
+      ],
+      "pilot_quality_boot": [
+        0.007646797153024912,
+        0.030782918149466192
+      ],
+      "pilot_cost_boot": [
+        -0.006337785195729537,
+        -0.006015461516014235
+      ],
+      "cal_quality_finite": 0.06398883626491988,
+      "cal_cost_bernstein": 0.007797927280358131
+    }
+  },
+  {
+    "id": "math_3102_256",
+    "workload": "math",
+    "seed": 3102,
+    "requested_train": 256,
+    "actual_train": 256,
+    "family": "ridge",
+    "lambda": 0.05,
+    "fixed_model": null,
+    "tune_excess": 0.009773013871374527,
+    "cal_excess": 0.028336686787391013,
+    "pilot_excess": 0.016370106761565837,
+    "historical_upfront_api_cost": 56.34459289200001,
+    "feedback_count": 27940,
+    "reference_mean_cost": 0.0083809765625,
+    "pilot_cost_difference": -0.005759350889679716,
+    "bounds": {
+      "cal_quality_boot": [
+        0.017597250167672704,
+        0.0397426224010731
+      ],
+      "cal_cost_boot": [
+        -0.005846108514419852,
+        -0.005504768061703556
+      ],
+      "pilot_quality_boot": [
+        0.005871886120996441,
+        0.026690391459074734
+      ],
+      "pilot_cost_boot": [
+        -0.005958028505338078,
+        -0.0055558442846975085
+      ],
+      "cal_quality_finite": 0.05864794613508953,
+      "cal_cost_bernstein": 0.00829375384176071
+    }
+  },
+  {
+    "id": "math_3102_1024",
+    "workload": "math",
+    "seed": 3102,
+    "requested_train": 1024,
+    "actual_train": 1024,
+    "family": "ridge",
+    "lambda": 0.05,
+    "fixed_model": null,
+    "tune_excess": 0.013871374527112233,
+    "cal_excess": 0.029845741113346747,
+    "pilot_excess": 0.006939501779359431,
+    "historical_upfront_api_cost": 73.66399754000001,
+    "feedback_count": 36388,
+    "reference_mean_cost": 0.008580029296875,
+    "pilot_cost_difference": -0.005535467900355872,
+    "bounds": {
+      "cal_quality_boot": [
+        0.017773306505700873,
+        0.04024564050972501
+      ],
+      "cal_cost_boot": [
+        -0.0056392146780684105,
+        -0.005296782293762576
+      ],
+      "pilot_quality_boot": [
+        -0.004804270462633452,
+        0.018518683274021338
+      ],
+      "pilot_cost_boot": [
+        -0.005673984227758007,
+        -0.005369604355871886
+      ],
+      "cal_quality_finite": 0.059878968793359334,
+      "cal_cost_bernstein": 0.008505991829848885
+    }
+  },
+  {
+    "id": "math_3103_256",
+    "workload": "math",
+    "seed": 3103,
+    "requested_train": 256,
+    "actual_train": 256,
+    "family": "ridge",
+    "lambda": 0.05,
+    "fixed_model": null,
+    "tune_excess": 0.0025220680958385876,
+    "cal_excess": 0.015593561368209255,
+    "pilot_excess": 0.0051601423487544484,
+    "historical_upfront_api_cost": 56.43277805200001,
+    "feedback_count": 27940,
+    "reference_mean_cost": 0.008445742187499999,
+    "pilot_cost_difference": -0.004844839430604982,
+    "bounds": {
+      "cal_quality_boot": [
+        0.00636737089201878,
+        0.025494634473507707
+      ],
+      "cal_cost_boot": [
+        -0.005037615855130785,
+        -0.004715885855130784
+      ],
+      "pilot_quality_boot": [
+        -0.005346975088967971,
+        0.017806939501779348
+      ],
+      "pilot_cost_boot": [
+        -0.005018322491103203,
+        -0.004673262661921708
+      ],
+      "cal_quality_finite": 0.04504532861546762,
+      "cal_cost_bernstein": 0.0090969597751379
+    }
+  },
+  {
+    "id": "math_3103_1024",
+    "workload": "math",
+    "seed": 3103,
+    "requested_train": 1024,
+    "actual_train": 1024,
+    "family": "length_bins",
+    "lambda": 0.1,
+    "fixed_model": null,
+    "tune_excess": 0.01733921815889029,
+    "cal_excess": 0.031857813547954396,
+    "pilot_excess": 0.01886120996441281,
+    "historical_upfront_api_cost": 73.60249488800001,
+    "feedback_count": 36388,
+    "reference_mean_cost": 0.00855611328125,
+    "pilot_cost_difference": -0.0065750143772241995,
+    "bounds": {
+      "cal_quality_boot": [
+        0.020451877934272302,
+        0.04259725016767269
+      ],
+      "cal_cost_boot": [
+        -0.006517584755197854,
+        -0.006269399409792087
+      ],
+      "pilot_quality_boot": [
+        0.008358540925266904,
+        0.030435943060498214
+      ],
+      "pilot_cost_boot": [
+        -0.006717057886120996,
+        -0.006432649202846976
+      ],
+      "cal_quality_finite": 0.06221318986470006,
+      "cal_cost_bernstein": 0.007532275433464085
+    }
+  },
+  {
+    "id": "reasoning_3101_256",
+    "workload": "reasoning",
+    "seed": 3101,
+    "requested_train": 256,
+    "actual_train": 256,
+    "family": "knn",
+    "lambda": 0.05,
+    "fixed_model": null,
+    "tune_excess": 0.014319809069212411,
+    "cal_excess": 0.04134762633996937,
+    "pilot_excess": 0.03769140164899882,
+    "historical_upfront_api_cost": 23.766002076,
+    "feedback_count": 45375,
+    "reference_mean_cost": 0.001962421875,
+    "pilot_cost_difference": -0.0011328872398900668,
+    "bounds": {
+      "cal_quality_boot": [
+        0.027555513016845327,
+        0.054766462480857564
+      ],
+      "cal_cost_boot": [
+        -0.0011699832771822356,
+        -0.0010814658326952528
+      ],
+      "pilot_quality_boot": [
+        0.023164507263447192,
+        0.05222811150372987
+      ],
+      "pilot_cost_boot": [
+        -0.0011769218511974873,
+        -0.0010878525363172361
+      ],
+      "cal_quality_finite": 0.07055452932578903,
+      "cal_cost_bernstein": 0.006773025987202801
+    }
+  },
+  {
+    "id": "reasoning_3101_1024",
+    "workload": "reasoning",
+    "seed": 3101,
+    "requested_train": 1024,
+    "actual_train": 1024,
+    "family": "length_bins",
+    "lambda": 0.1,
+    "fixed_model": null,
+    "tune_excess": 0.010342084327764518,
+    "cal_excess": 0.024885145482388973,
+    "pilot_excess": 0.01884570082449941,
+    "historical_upfront_api_cost": 28.23737756,
+    "feedback_count": 53823,
+    "reference_mean_cost": 0.0018897558593750003,
+    "pilot_cost_difference": -0.0011818349430702789,
+    "bounds": {
+      "cal_quality_boot": [
+        0.0130072741194487,
+        0.037145865237365995
+      ],
+      "cal_cost_boot": [
+        -0.0012090318453292497,
+        -0.0011170115581929556
+      ],
+      "pilot_quality_boot": [
+        0.006664703572830782,
+        0.03337259521005104
+      ],
+      "pilot_cost_boot": [
+        -0.0012239529956811937,
+        -0.001130612143698469
+      ],
+      "cal_quality_finite": 0.05076193142670864,
+      "cal_cost_bernstein": 0.006740321060429409
+    }
+  },
+  {
+    "id": "reasoning_3102_256",
+    "workload": "reasoning",
+    "seed": 3102,
+    "requested_train": 256,
+    "actual_train": 256,
+    "family": "knn",
+    "lambda": 0.1,
+    "fixed_model": null,
+    "tune_excess": 0.011933174224343675,
+    "cal_excess": 0.0386676875957121,
+    "pilot_excess": 0.030231645072634473,
+    "historical_upfront_api_cost": 23.614770720000003,
+    "feedback_count": 45375,
+    "reference_mean_cost": 0.0017726953125000002,
+    "pilot_cost_difference": -0.0010291440125638005,
+    "bounds": {
+      "cal_quality_boot": [
+        0.02525842266462481,
+        0.050918836140888206
+      ],
+      "cal_cost_boot": [
+        -0.0010723736217457887,
+        -0.0009854431718989282
+      ],
+      "pilot_quality_boot": [
+        0.0176678445229682,
+        0.044385551629367866
+      ],
+      "pilot_cost_boot": [
+        -0.001068791030624264,
+        -0.0009796120318021203
+      ],
+      "cal_quality_finite": 0.06649414263604263,
+      "cal_cost_bernstein": 0.0068638368214743945
+    }
+  },
+  {
+    "id": "reasoning_3102_1024",
+    "workload": "reasoning",
+    "seed": 3102,
+    "requested_train": 1024,
+    "actual_train": 1024,
+    "family": "knn",
+    "lambda": 0.1,
+    "fixed_model": null,
+    "tune_excess": 0.00954653937947494,
+    "cal_excess": 0.039816232771822356,
+    "pilot_excess": 0.04122497055359246,
+    "historical_upfront_api_cost": 28.317859140000003,
+    "feedback_count": 53823,
+    "reference_mean_cost": 0.0019144531250000001,
+    "pilot_cost_difference": -0.0012066045543776994,
+    "bounds": {
+      "cal_quality_boot": [
+        0.02678981623277182,
+        0.0543740428790199
+      ],
+      "cal_cost_boot": [
+        -0.0012071294506125576,
+        -0.0011261659102220522
+      ],
+      "pilot_quality_boot": [
+        0.027875932469572047,
+        0.05614448370632116
+      ],
+      "pilot_cost_boot": [
+        -0.0012461088025127601,
+        -0.0011651620926580292
+      ],
+      "cal_quality_finite": 0.06879115464180306,
+      "cal_cost_bernstein": 0.00672402607901831
+    }
+  },
+  {
+    "id": "reasoning_3103_256",
+    "workload": "reasoning",
+    "seed": 3103,
+    "requested_train": 256,
+    "actual_train": 256,
+    "family": "knn",
+    "lambda": 0.05,
+    "fixed_model": null,
+    "tune_excess": 0.017501988862370723,
+    "cal_excess": 0.0608728943338438,
+    "pilot_excess": 0.04907734589713388,
+    "historical_upfront_api_cost": 23.690734512,
+    "feedback_count": 45375,
+    "reference_mean_cost": 0.0018675390625,
+    "pilot_cost_difference": -0.001356711974872399,
+    "bounds": {
+      "cal_quality_boot": [
+        0.04555895865237366,
+        0.07619640122511485
+      ],
+      "cal_cost_boot": [
+        -0.0013935234552067382,
+        -0.0013123279881317
+      ],
+      "pilot_quality_boot": [
+        0.03413820180604633,
+        0.06439929328621907
+      ],
+      "pilot_cost_boot": [
+        -0.00139321397133883,
+        -0.0013167192716921868
+      ],
+      "cal_quality_finite": 0.09152737863718304,
+      "cal_cost_bernstein": 0.006537042444710658
+    }
+  },
+  {
+    "id": "reasoning_3103_1024",
+    "workload": "reasoning",
+    "seed": 3103,
+    "requested_train": 1024,
+    "actual_train": 1024,
+    "family": "ridge",
+    "lambda": 0.1,
+    "fixed_model": null,
+    "tune_excess": 0.011933174224343675,
+    "cal_excess": 0.02679938744257274,
+    "pilot_excess": 0.020023557126030624,
+    "historical_upfront_api_cost": 28.017244328000004,
+    "feedback_count": 53823,
+    "reference_mean_cost": 0.00182130859375,
+    "pilot_cost_difference": -0.0010738823714173539,
+    "bounds": {
+      "cal_quality_boot": [
+        0.014921516079632467,
+        0.04058192955589587
+      ],
+      "cal_cost_boot": [
+        -0.0010853795999234304,
+        -0.0010008751148545179
+      ],
+      "pilot_quality_boot": [
+        0.00861798193953671,
+        0.03337259521005104
+      ],
+      "pilot_cost_boot": [
+        -0.0011197010895170792,
+        -0.0010323008068315667
+      ],
+      "cal_quality_finite": 0.05326276838496238,
+      "cal_cost_bernstein": 0.006853119394213554
+    }
+  },
+  {
+    "id": "law_3101_256",
+    "workload": "law",
+    "seed": 3101,
+    "requested_train": 256,
+    "actual_train": 256,
+    "family": "knn",
+    "lambda": 0.02,
+    "fixed_model": null,
+    "tune_excess": 0.012269938650306749,
+    "cal_excess": 0.003125,
+    "pilot_excess": 0.009900990099009901,
+    "historical_upfront_api_cost": 6.671800924,
+    "feedback_count": 8129,
+    "reference_mean_cost": 0.0028754296875,
+    "pilot_cost_difference": -2.6875247524752474e-05,
+    "bounds": {
+      "cal_quality_boot": [
+        0.0,
+        0.009375
+      ],
+      "cal_cost_boot": [
+        -4.2804999999999994e-05,
+        -7.187499999999999e-07
+      ],
+      "pilot_quality_boot": [
+        0.0,
+        0.0231023102310231
+      ],
+      "pilot_cost_boot": [
+        -5.949848184818482e-05,
+        -4.37953795379538e-06
+      ],
+      "cal_quality_finite": 0.07648117776852376,
+      "cal_cost_bernstein": 0.06412018684952595
+    }
+  },
+  {
+    "id": "law_3101_1024",
+    "workload": "law",
+    "seed": 3101,
+    "requested_train": 1024,
+    "actual_train": 451,
+    "family": "knn",
+    "lambda": 0.02,
+    "fixed_model": null,
+    "tune_excess": 0.018404907975460124,
+    "cal_excess": 0.009375,
+    "pilot_excess": 0.0033003300330033004,
+    "historical_upfront_api_cost": 8.416184900000001,
+    "feedback_count": 10274,
+    "reference_mean_cost": 0.0028669623059866967,
+    "pilot_cost_difference": -6.165544554455445e-05,
+    "bounds": {
+      "cal_quality_boot": [
+        -0.003125,
+        0.021875
+      ],
+      "cal_cost_boot": [
+        -0.00017280862499999999,
+        -5.7170062500000004e-05
+      ],
+      "pilot_quality_boot": [
+        -0.009900990099009901,
+        0.013201320132013201
+      ],
+      "pilot_cost_boot": [
+        -0.00010269767326732673,
+        -2.4489191419141922e-05
+      ],
+      "cal_quality_finite": 0.09414045167161433,
+      "cal_cost_bernstein": 0.06407904846103198
+    }
+  },
+  {
+    "id": "law_3102_256",
+    "workload": "law",
+    "seed": 3102,
+    "requested_train": 256,
+    "actual_train": 256,
+    "family": "knn",
+    "lambda": 0.05,
+    "fixed_model": null,
+    "tune_excess": 0.012269938650306749,
+    "cal_excess": 0.015625,
+    "pilot_excess": 0.006600660066006601,
+    "historical_upfront_api_cost": 6.706356888,
+    "feedback_count": 8129,
+    "reference_mean_cost": 0.0029192578125,
+    "pilot_cost_difference": -0.00011655511551155115,
+    "bounds": {
+      "cal_quality_boot": [
+        0.003125,
+        0.03125
+      ],
+      "cal_cost_boot": [
+        -0.000211006296875,
+        -7.321878125000009e-05
+      ],
+      "pilot_quality_boot": [
+        -0.006600660066006601,
+        0.019801980198019802
+      ],
+      "pilot_cost_boot": [
+        -0.0001732856105610561,
+        -5.739433993399342e-05
+      ],
+      "cal_quality_finite": 0.10028630195310242,
+      "cal_cost_bernstein": 0.06406733765293043
+    }
+  },
+  {
+    "id": "law_3102_1024",
+    "workload": "law",
+    "seed": 3102,
+    "requested_train": 1024,
+    "actual_train": 451,
+    "family": "knn",
+    "lambda": 0.02,
+    "fixed_model": null,
+    "tune_excess": 0.018404907975460124,
+    "cal_excess": 0.009375,
+    "pilot_excess": 0.0033003300330033004,
+    "historical_upfront_api_cost": 8.416184900000001,
+    "feedback_count": 10274,
+    "reference_mean_cost": 0.0028669623059866967,
+    "pilot_cost_difference": -6.165544554455445e-05,
+    "bounds": {
+      "cal_quality_boot": [
+        -0.003125,
+        0.025
+      ],
+      "cal_cost_boot": [
+        -0.00017954026562500003,
+        -6.021507812500003e-05
+      ],
+      "pilot_quality_boot": [
+        -0.006600660066006601,
+        0.013283828382838208
+      ],
+      "pilot_cost_boot": [
+        -0.00011009691419141914,
+        -2.5925445544554477e-05
+      ],
+      "cal_quality_finite": 0.09414045167161433,
+      "cal_cost_bernstein": 0.06407904846103198
+    }
+  },
+  {
+    "id": "law_3103_256",
+    "workload": "law",
+    "seed": 3103,
+    "requested_train": 256,
+    "actual_train": 256,
+    "family": "ridge",
+    "lambda": 0.1,
+    "fixed_model": null,
+    "tune_excess": 0.018404907975460124,
+    "cal_excess": 0.01875,
+    "pilot_excess": 0.019801980198019802,
+    "historical_upfront_api_cost": 6.714487708,
+    "feedback_count": 8129,
+    "reference_mean_cost": 0.002928515625,
+    "pilot_cost_difference": -0.00023667194719471948,
+    "bounds": {
+      "cal_quality_boot": [
+        0.0,
+        0.03757812499999993
+      ],
+      "cal_cost_boot": [
+        -0.000396963421875,
+        -0.00021696560937500012
+      ],
+      "pilot_quality_boot": [
+        -8.250825082507782e-05,
+        0.0429042904290429
+      ],
+      "pilot_cost_boot": [
+        -0.00033715973597359735,
+        -0.00015024153465346542
+      ],
+      "cal_quality_finite": 0.11199058051136741,
+      "cal_cost_bernstein": 0.06395155431291309
+    }
+  },
+  {
+    "id": "law_3103_1024",
+    "workload": "law",
+    "seed": 3103,
+    "requested_train": 1024,
+    "actual_train": 451,
+    "family": "knn",
+    "lambda": 0.02,
+    "fixed_model": null,
+    "tune_excess": 0.018404907975460124,
+    "cal_excess": 0.009375,
+    "pilot_excess": 0.0033003300330033004,
+    "historical_upfront_api_cost": 8.416184900000001,
+    "feedback_count": 10274,
+    "reference_mean_cost": 0.002866962305986696,
+    "pilot_cost_difference": -6.165544554455445e-05,
+    "bounds": {
+      "cal_quality_boot": [
+        0.0,
+        0.025
+      ],
+      "cal_cost_boot": [
+        -0.00018096865625,
+        -6.037653125000008e-05
+      ],
+      "pilot_quality_boot": [
+        -0.006600660066006601,
+        0.013201320132013201
+      ],
+      "pilot_cost_boot": [
+        -0.00010413301980198019,
+        -2.7179042904290443e-05
+      ],
+      "cal_quality_finite": 0.09414045167161433,
+      "cal_cost_bernstein": 0.06407904846103198
+    }
+  }
+]

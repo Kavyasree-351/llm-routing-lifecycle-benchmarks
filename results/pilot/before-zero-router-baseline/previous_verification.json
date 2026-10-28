@@ -1,0 +1,13 @@
+{
+  "runs": 18,
+  "candidate_policies_per_run": [
+    43
+  ],
+  "decision_scenarios_including_rules": 2592,
+  "original_primary_reproduced": true,
+  "split_isolation": "Passed within every run and against reserved fresh/final pools",
+  "seconds_excluding_imports": 35.161411600071006,
+  "opportunity_gate": false,
+  "novelty_established": false,
+  "note": "Pilot evaluation estimates are noisy; seeds share calibration/evaluation pools. No population false-deployment probabilities are inferred."
+}

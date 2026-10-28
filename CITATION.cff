@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Cite this software implementation and the original methods credited in its research notes."
+title: "LLM Routing Lifecycle Benchmarks: Reproducible Research Prototype"
+type: software
+authors:
+  - name: "Kavyasree-351"
+repository-code: "https://github.com/Kavyasree-351/llm-routing-lifecycle-benchmarks"
+abstract: "Reproducible engineering experiments with verified outcomes and explicit limitations; methodological novelty is not established."

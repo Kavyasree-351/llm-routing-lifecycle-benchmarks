@@ -1,0 +1,20 @@
+{
+  "successful": true,
+  "checks": [
+    {
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        ".",
+        "-p",
+        "test_study.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "seconds": 22.55837340001017
+    }
+  ],
+  "final_queries_evaluated": false
+}

@@ -1,0 +1,9 @@
+{
+  "repository": "llm-routing-lifecycle-benchmarks",
+  "copied_files": 33,
+  "raw_data_excluded": true,
+  "private_paths_sanitized": true,
+  "changes": "Portable cache paths, publication documentation, check runner; numerical experiment outputs preserved.",
+  "included_studies": [],
+  "license_selected_by_publication": false
+}

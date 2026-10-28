@@ -1,0 +1,27 @@
+# Local environments and downloads
+.venv/
+venv/
+work/
+data/
+datasets/
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mpl-cache/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pkl
+*.pkl.gz
+*.hdf5
+*.h5
+*.fvecs
+*.ivecs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# NPZ result traces are intentional tracked research outputs.

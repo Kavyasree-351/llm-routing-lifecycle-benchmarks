@@ -1,0 +1,9 @@
+{
+  "dataset": "withmartian/routerbench",
+  "revision": "784021482c3f320c6619ed4b3bb3b41a21424fcb",
+  "source_url": "https://huggingface.co/datasets/withmartian/routerbench/resolve/784021482c3f320c6619ed4b3bb3b41a21424fcb/routerbench_0shot.pkl",
+  "bytes": 99567659,
+  "sha256": "ba4f77f19517610a707c374e99322d7750c30fc4ae7ff5527888595a1e65d36d",
+  "license_metadata": null,
+  "scope": "Historical cached inference and benchmark costs; not current prices or measured serving latency."
+}
